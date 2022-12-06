@@ -4,7 +4,7 @@ def directions():
 
 def menu():
     print("please select a direction")
-    option = directions()
+    dirs = directions()
     for index in range(len(dirs)):
         print(f"{index}: {dirs[index]}")
 
